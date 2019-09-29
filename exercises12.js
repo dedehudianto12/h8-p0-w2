@@ -1,14 +1,14 @@
-// X dan O
+//Konversi Menit
 
-var o = 0;
-var x = 0;
+function konversiMenit(menit){
+    var minutes = Math.floor(menit / 60)
+    var seconds = menit % 60
 
-function xo(str){
-    for (var i = 0; i < str.length; i++){
-        if(str[i]=== 'x'){
-            x++;
-        else if (str[i]==='o'){
-            o++;
-        }
+    if(String(seconds).length === 1){
+        seconds = "0" + seconds
     }
+
+    var hasil = minutes + ':' + seconds
+    return hasil;
 }
+console.log(konversiMenit(120));

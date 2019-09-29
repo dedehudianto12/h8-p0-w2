@@ -1,11 +1,13 @@
-// Balik Kata
+//Logic Challenge
 
-function balikKata(kata){
-    var word = '';
-    for (var i = kata.length-1; i >= 0; i--){
-        word = word + kata[i]
+function bandingkanAngka(angka1, angka2){
+    if (angka2 > angka1 ){
+        return 'true';
     }
-return word;
+    else if ( angka2 < angka1){
+        return 'false';
+    }else {
+        return '-1';
+    }
 }
-    
-console.log(balikKata('kata'));
+console.log(bandingkanAngka(1, 1));

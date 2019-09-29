@@ -1,14 +1,11 @@
-//Konversi Menit
+// Balik Kata
 
-function konversiMenit(menit){
-    var minutes = Math.floor(menit / 60)
-    var seconds = menit % 60
-
-    if(String(seconds).length === 1){
-        seconds = "0" + seconds
+function balikKata(kata){
+    var word = '';
+    for (var i = kata.length-1; i >= 0; i--){
+        word = word + kata[i]
     }
-
-    var hasil = minutes + ':' + seconds
-    return hasil;
+return word;
 }
-console.log(konversiMenit(120));
+    
+console.log(balikKata('kata'));
