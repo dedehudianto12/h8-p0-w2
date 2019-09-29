@@ -4,7 +4,7 @@ function konversiMenit(menit){
     var minutes = Math.floor(menit / 60)
     var seconds = menit % 60
 
-    if(String(seconds).length === 1){
+    if(seconds < 10 ){
         seconds = "0" + seconds
     }
 
