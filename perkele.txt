@@ -1,0 +1,85 @@
+1. Newton Second Law
+
+variabel F, M, A
+    ### F = resultan gaya (Newton)
+    ### M = masssa benda (kg)
+    ### A = percepatan benda (m/s2)
+
+
+Start
+    Input M = 600 kg
+    Input A = 2 m/s2
+    Hitung F = M*A
+    Hasil = F
+Selesai
+
+Start
+    IF massa mobil 600kg didorong 3 orang
+        THEN percepatannya 2m/s2
+     
+
+
+2. Tahun Kabisat
+    Start
+        IF tahun dibagi 4 lalu habis AND dibagi 100 lalu tidak habis
+            THEN "Tahun Kabisat"
+        ELSE "Bkn tahun Kabisat"
+
+        IF tahun dibagi 4 lalu habis AND dibagi 100 lalu habis AND dibagi 400 lalu habis
+            THEN "Tahun Kabisat"
+        ELSE "Bkn tahun Kabisat"
+        END IF
+    Selesai        
+
+3. Laundry Day
+
+    Start
+        WHILE foxy ingin mencuci baju DO
+            REPEAT memasukan baju
+            UNTIL 20 baju
+
+            IF foxy memasukan 20 baju 
+                THEN mesin cuci dinyalakan
+            ELSE mesin cuci tdk dinyalakan
+
+            END IF
+
+            DO mencuci baju
+            UNTIL mencuci baju Selesai
+
+        ENDWHILE
+    Selesai    
+            
+
+
+4. Periksa Kuku
+
+    Start
+        WHILE guru melakukan pemeriksaan DO
+            REPEAT pemeriksaan
+            UNTIL 40 orang siswa/siswi
+
+            IF guru menemukan siswa/siswi berkuku panjang 
+                Then hukum siswa/siswi
+            Else guru tdk menemukan siswa/siswi berkuku pankang
+                Then tdk hukum siswa/siswi
+
+            END IF
+
+            DO pemeriksaan
+            WHILE sampai 40 siswa/siswi
+        END
+    Selesai
+            
+        
+
+        
+
+
+
+
+        
+
+    
+    
+    

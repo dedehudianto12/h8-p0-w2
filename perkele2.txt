@@ -1,0 +1,95 @@
+1. Newton II Law
+
+Algoritma :
+
+Mulai
+Mengimput F sama dengan 0
+Mengimput M sama dengan 600kg
+Mengimput A sama dengan 2m/s2
+Hitung menggunakan rumus F=M*A
+Tampilkan hasil F
+Selesai
+
+Pseudocode :
+
+STORE "F" with 0
+STORE "M" with 600kg
+STORE "A" with 2m/s2
+
+CALCULATE "M" times "A"
+SET "F" value with calculation result
+
+DISPLAY "F"
+
+2. TAHUN KABISAT
+
+Algoritma :
+
+Mulai
+Memasukan TAHUN
+Jika tahun habis dibagi 4 dan tidak habis dibagi 100 ATAU
+tahun habis dibagi 4 dan habis dibagi 100 dan habis dibagi 400
+    Maka tahun merupakan Tahun KABISAT
+Jika tdk memenuhi kondisi diatas
+    Maka tahun merupakan  bkn Tahut KABISAT
+
+
+Pseudocode :
+
+tahun = 
+IF ( tahun % 4 == 0 AND tahun % 100 != 0 )
+    print Tahun Kabisat
+ELSE IF ( tahun % 4 == 0 AND tahun % 100 == 0 AND tahun % 400 == 0)
+    print Tahun Kabisat
+ELSE 
+    print Bkn Tahun Kabisat
+
+
+3. Laundry DAY 
+
+Algoritma :
+
+Mulai
+Jumlah baju adalah 20
+Jumlah baju di mesin cuci sekarang adalah 0
+Selama jumlah baju di mesin cuci <20 mesin cuci tdk menyala
+Foxy memasukan baju ke mesin cuci 
+Jika didalam mesin cuci sudah ada 20 baju mesin akan dinyalakan
+Selesai
+
+Pseudocode :
+
+jumlahBaju = 20
+jumlahDalam = 0
+WHILE jumlahDalam < jumlahBaju
+    jumlahDalam +1
+IF jumlahDalam=20
+    print Mesin Nyala
+
+
+4. Periksa Kuku
+
+Algoritma :
+
+Mulai
+Jumlah siswa/siswi yg kukunya ingin diperiksa adalah 40
+Jumlah siswa/siswi yg kukunya telah diperiksa 0
+Selama jumlah siswa/siswi yg telah diperiksa belum mencapai 40 
+Jika kuku siswa/siswi panjang maka siswa/siswi dihukum
+Jika kuku siswa/siswi pendek maka siswa/siswi dipuji
+Jika jumlah siswa/siswi telah mencapai 40
+Selesai
+
+Pseudocode :
+
+jumlahSiswa = 40
+jumlahDiperiksa = 0
+WHILE jumlahDiperiksa < jumlahSiswa
+    IF siswa kuku panjang
+        print dihukum
+    IF siswa kuku pendek
+        print dipuji
+    jumlahDiperiksa +1
+IF jumlahDiperiksa = 40
+    print Selesai Pemeriksaan
+
