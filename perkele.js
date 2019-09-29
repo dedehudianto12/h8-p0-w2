@@ -5,6 +5,7 @@ for (var i = 0; i < 5; i++){
     }
     tampung = tampung + '*'
     console.log(tampung)
+    console,log('ok')
 }
 
     
