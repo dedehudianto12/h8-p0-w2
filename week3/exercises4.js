@@ -1,10 +1,10 @@
-var lucu = ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"]
-function dataHandling2(){
+var input = ["0001", "Roman Alamsyah", "Bandar Lampung", "21/05/1989", "Membaca"]
+function dataHandling2(input){
 
-     lucu.splice(1, 4, 'Roman Alamsyah Elshrawy', 'Provinsi Bandar Lampung', '21/05/1989', 'Pria', 'SMA Internasional Metro')
-     console.log(lucu)
+     input.splice(1, 4, 'Roman Alamsyah Elshrawy', 'Provinsi Bandar Lampung', '21/05/1989', 'Pria', 'SMA Internasional Metro')
+     console.log(input)
 
-    var tanggal = lucu[3]
+    var tanggal = input[3]
     var tanggal1 = tanggal.split('/')
     var bulan = tanggal1[1]
     
@@ -52,16 +52,16 @@ function dataHandling2(){
     tanggal1.sort(function(a, b){return b - a})
     console.log(tanggal1)
 
-    var format = lucu[3]
+    var format = input[3]
     var format1 = format.split('/')
     var format2 = format1.join('-')
     console.log(format2)
 
-    var nama = lucu[1]
+    var nama = input[1]
     var nama1 = nama.slice(0, 15)
     console.log(nama1)
 }
 
-dataHandling2()
+dataHandling2(input)
 
 //["0001", "Roman Alamsyah Elsharawy", "Provinsi Bandar Lampung", "21/05/1989", "Pria", "SMA Internasional Metro"]
