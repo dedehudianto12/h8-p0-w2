@@ -25,7 +25,7 @@
         hasil.push(Math.abs(kosongX[j]-kosongO))
         hasil.sort(function(a, b){return a - b})
     }
-    //return hasil[0]
+    return hasil[0]
   }
   
   // TEST CASES
