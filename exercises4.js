@@ -1,6 +1,6 @@
 
 var tanggal = '1'
-var bulan = '1'
+var bulan = '13'
 var tahun = '2019'
 
 switch (bulan){
@@ -40,4 +40,7 @@ switch (bulan){
     case '12' :
         console.log ( tanggal + ' Desember ' + tahun)
         break;  
+    default :
+        console.log ('KIAMAT')
+        break;
 }
