@@ -1,4 +1,6 @@
 
+// KALO STRING
+
 // var tampung = ''
 // function balikString(str){
 //     for ( var i = str.length-1; i >= 0; i--){
@@ -9,6 +11,9 @@
 // }
 
 //balikString('hello world')
+
+
+// KALO ARRAY
 
 function balikString(arr){
   
