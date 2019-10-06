@@ -1,21 +1,21 @@
 
-// KALO STRING
+// KALO STRING ///////////////////////
 
-// var tampung = ''
-// function balikString(str){
-//     for ( var i = str.length-1; i >= 0; i--){
-//         tampung = tampung + str[i]
+var tampung = ''
+function balikString1(str){
+    for ( var i = str.length-1; i >= 0; i--){
+        tampung = tampung + str[i]
         
-//     }
-//     return tampung
-// }
+    }
+    return tampung
+}
 
-//balikString('hello world')
+console.log(balikString1('hello world'))
 
 
-// KALO ARRAY
+// KALO ARRAY ///////////////////
 
-function balikString(arr){
+function balikString2(arr){
   
     var hasil = []
     
@@ -27,7 +27,6 @@ function balikString(arr){
       return hasil.join('')
     }
 }
-
-console.log(balikString(['Hello World']))
+console.log(balikString2(['Hello World']))
 
 
