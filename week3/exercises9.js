@@ -3,9 +3,14 @@ function cariMean(arr) {
     var baru = 0
     for ( var i = 0; i < arr.length; i++){
         baru = baru + arr[i]
-        var baru1 = Math.floor(baru / arr.length)
+        var baru1 = String(baru / arr.length)
+        
     }
-    return baru1
+    if (baru1[2] >= 5){
+        return Math.floor(baru1)
+    } else if ( baru1[2] < 5)
+    }
+    
   }
   
   // TEST CASES
