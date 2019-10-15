@@ -3,7 +3,7 @@
 function ubahHuruf(kata) {
     var alpha = 'abcdefghijklmnopqrstuvwxyz'
     var tampung = ''
-
+    
     for ( var i = 0; i < kata.length; i++){
         for ( var j = 0; j < alpha.length; j++){
             if ( kata[i] === alpha[j]){
